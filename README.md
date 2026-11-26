@@ -49,8 +49,6 @@ vaultx-data-locker/
 
 ## 5. Getting Started
 
-### Local Setup
-
 ```bash
 git clone https://github.com/Yusra-Saleem/vaultx-data-locker.git
 cd vaultx-data-locker
@@ -59,18 +57,7 @@ python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 pip install -r requirements.txt
-```
-
-### Run Vault Interface
-
-```bash
 streamlit run src/app.py
-```
-
-### Run Verification Test Suite
-
-```bash
-pytest tests/
 ```
 
 ## 6. Author and License
